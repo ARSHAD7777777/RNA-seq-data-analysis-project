@@ -1,0 +1,7 @@
+﻿Samples	group
+WTA_Pr	WT_Pr
+WTB_Pr	WT_Pr
+WTC_Pr	WT_Pr
+WTA_Pd	WT_Pd
+WTB_Pd	WT_Pd
+WTC_Pd	WT_Pd
