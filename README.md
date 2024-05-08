@@ -17,24 +17,24 @@ cleaving covalent bonds in P-containing biomolecules
 # Experiment description
 P. tricornutum cells are grown in two different growth media, one with surplus of phosphate,
 (phosphate replete) and one with reduced phosphate levels (phosphate deplete).
-• RNA is isolated from three biological replicas from each, replete or deplete, after 48 hours growth.
-• As the cells divide the concentration of phosphate in the growth medium is reduced, and the Pdepleted cells starts to have problems.
-• Too little phosphate will reduce the production of nucleotides which in turn affects DNA synthesis
+- RNA is isolated from three biological replicas from each, replete or deplete, after 48 hours growth.
+- As the cells divide the concentration of phosphate in the growth medium is reduced, and the Pdepleted cells starts to have problems.
+- Too little phosphate will reduce the production of nucleotides which in turn affects DNA synthesis
 and reduce the rate of cell division.
-• The cells start processes that increase uptake of phosphate (phosphate transporters) and
+- The cells start processes that increase uptake of phosphate (phosphate transporters) and
 increase scavenging of phosphate from external and internal sources (various phosphatases).
 The lipid profile is also affected, and levels of phospholipids are reduced.
 
 # Program description
 The R-script will use the functions included in edgeR package.
 The R-script will perform several operations and analyses:
-• The files containing the count table (read counts) and sample information are read into R.
-• The count table will be filtered so that genes with very few reads are excluded from the
+- The files containing the count table (read counts) and sample information are read into R.
+- The count table will be filtered so that genes with very few reads are excluded from the
 analysis.
-• The data will be analyzed using statistical methods based on generalized linear models
+- The data will be analyzed using statistical methods based on generalized linear models
 (GLM).
-• It will perform likelihood ratio tests to find differentially expressed genes
-• It will produce a plot which gives an overview of how many genes are differentially expressed
-• It will produce a plot which shows how much biological variation you have in the biological
+- It will perform likelihood ratio tests to find differentially expressed genes
+- It will produce a plot which gives an overview of how many genes are differentially expressed
+- It will produce a plot which shows how much biological variation you have in the biological
 replicas.
 
